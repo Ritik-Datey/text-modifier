@@ -12,13 +12,13 @@ export default function NavBar(props) {
             setTextColor('white');
             setTextMode('Disable DarkMode');
             document.body.style.backgroundColor='#0d0e1c';
-            document.body.style.color=textColor;
+            document.body.style.color='white';
         }else{
             setMode('white');
             setTextColor('black');
             setTextMode('Enable DarkMode');
             document.body.style.backgroundColor='white';
-            document.body.style.color=textColor;  
+            document.body.style.color='black';  
         }
     }
   return (
