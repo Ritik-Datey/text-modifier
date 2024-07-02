@@ -54,7 +54,13 @@ export default function NavBar(props) {
                     {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> */}
                 </div>
                 <div class="modal-body">
-                    
+                In this project I used React with the help of React I created a project and the topics
+                used were is Components, props, and State(hooks) some parts of the router were not used 
+                because have to make a static without another page cause item gave us a problem in git 
+                deployment so.....
+                <br/>
+                    In this project, just we can manipulate our text.<br/>
+                    <strong><em>Happy to see you!</em></strong>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
