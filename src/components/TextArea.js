@@ -50,7 +50,7 @@ export default function TextArea() {
     <div className='container'>
         <div className="mb-3">
             <h1>Enter Text Here</h1>
-            <textarea className="form-control" rows="6" id="textArea" value={text} onChange={userValue}></textarea>
+            <textarea className="form-control" rows="6" id="textArea" value={text} onChange={userValue} placeholder='Enter some text to unblock the buttons'></textarea>
         </div>
 
         <button disabled={text.length===0} className='btn btn-primary mx-2 my-2' onClick={convertToUpperCase}>Convert To UpperCase</button>
