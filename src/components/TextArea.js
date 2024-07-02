@@ -44,7 +44,7 @@ export default function TextArea() {
     function char(){
         let newChar=text.split(/\s+/);
         return newChar.join("").length;
-    }      
+    }   
 
   return (
     <div className='container'>
@@ -75,8 +75,8 @@ export default function TextArea() {
         <div className='container'>
             <h3>Preview</h3>
             <p>{text.length===0?"Nothing in preview":text}</p> 
-        </div> 
-
+        </div>
     </div>
+    
   )
 }
