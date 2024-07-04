@@ -48,12 +48,12 @@ export default function NavBar(props) {
 
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">About Us</h1>
+                <div class="modal-content" style={{backgroundColor:`${mode}`}}>
+                <div class="modal-header" style={{backgroundColor:`${mode}`}}>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel" style={{color:(textColor)}}>About Us</h1>
                     {/* <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> */}
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" style={{color:(textColor), backgroundColor:`${mode}`}}>
                 In this project I used React with the help of React I created a project and the topics
                 used were is Components, props, and State(hooks) some parts of the router were not used 
                 because have to make a static without another page cause item gave us a problem in git 
